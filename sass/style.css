@@ -5,5 +5,87 @@
 
 body {
   font-family: 'Muli', sans-serif;
+  color: #333;
+}
+
+.container {
+  max-width: 1110px;
+  margin: auto;
+}
+
+.header {
+  background-color: #ffffff;
+}
+
+.header-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.header__search {
+  margin-right: auto;
+  margin-left: 108px;
+}
+
+.search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  border-radius: 6px;
+  height: 40px;
+}
+
+.search__input {
+  width: 350px;
+  height: 100%;
+  padding-left: 23px;
+  padding-right: 75px;
+  background-color: #f5fafe;
+  border: none;
+  font-size: 12px;
+  line-height: 15px;
+  color: #333;
+}
+
+.search__button {
+  position: absolute;
+  right: 0;
+  width: 65px;
+  height: 100%;
+  border: none;
+  background-color: #ec1f46;
+}
+
+.user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+
+.user__avatar {
+  width: 40px;
+  height: 40px;
+}
+
+.user__name {
+  margin-left: 18px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333;
 }
 /*# sourceMappingURL=style.css.map */
