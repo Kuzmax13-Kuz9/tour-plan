@@ -1,7 +1,15 @@
-var mySwiper = new Swiper('.swiper-container', {
+var hotelSwiper = new Swiper('.hotel-slider', {
   loop: true,
   navigation: {
-    nextEl: '.slider-button__next',
-    prevEl: '.slider-button__prev',
+    nextEl: '.hotel-slider__button--next',
+    prevEl: '.hotel-slider__button--prev',
+  },
+  effect: "coverflow",
+});
+var reviewSwiper = new Swiper('.reviews-slider', {
+  loop: true,
+  navigation: {
+    nextEl: '.reviews-slider__button--next',
+    prevEl: '.reviews-slider__button--prev',
   },
 })
